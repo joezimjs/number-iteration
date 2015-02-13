@@ -1,0 +1,18 @@
+{
+  "name": "numbers-iterator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "lodash": "^3.2.0",
+    "traceur": "0.0.84"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "traceur app.js",
+    "watch": "node watch-and-run ./ \"npm start\""
+  },
+  "author": "",
+  "license": "ISC"
+}
