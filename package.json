@@ -1,7 +1,7 @@
 {
   "name": "numbers-iterator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Inspired by http://blog.getify.com/iterating-es6-numbers/",
   "main": "app.js",
   "dependencies": {
     "lodash": "^3.2.0",
