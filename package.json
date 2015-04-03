@@ -2,16 +2,15 @@
   "name": "numbers-iterator",
   "version": "1.0.0",
   "description": "Inspired by http://blog.getify.com/iterating-es6-numbers/",
-  "main": "app.js",
+  "main": "src/range.js",
   "dependencies": {
-    "lodash": "^3.2.0",
-    "traceur": "0.0.84"
+    "babel": "^5.0.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "traceur app.js",
-    "watch": "node watch-and-run ./ \"npm start\""
+    "setup": "npm install",
+    "start": "babel-node src/app.js",
   },
   "author": "",
   "license": "ISC"
