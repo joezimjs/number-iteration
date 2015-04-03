@@ -149,14 +149,8 @@ Number.range(10, 0);
 
 ## Installation and Execution
 
-This module is written in ES6 aka ES2015 (of course), so it needs to be compiled to ES5 before it can be executed. Here are the steps to get started:
+This module is written in ES6 aka ES2015 (of course), and there's honestly no reason for you to be using it without you yourself already writing ES6, so it remains uncompiled. If you're not using an ES6 workflow, don't use this!
 
-1. Clone this repository
-2. Using the command prompt, navigate into the project's directory
-3. Run `npm install` to install all dependencies
+To install, just clone the repo and then run `npm run setup`. If you want to execute a sample app that demos several ways of using this module, you can use `npm start` and the console should throw out a bunch of number lists and arrays of numbers.
 
-Now, if you'd like to simply execute the code in `app.js`, run `npm start`. It should log a whole bunch of different ranges of numbers to the console. If you'd like experiment with code, you can run `npm run watch` and every time you make a change to a file in the project directory, the app.js file will be compiled and executed immediately.
-
-You can also compile the code to `app.compiled.js` with `npm run compile`. You can run this compiled version with `npm run start:compiled` or `node run`. Sadly, we cannot watch it and compile on save due to the way I have it set up because every time `app.js` is compiled, it will trigger another file change and start compiling again. This may be changed in the future.
-
-The compiled version requires a polyfill (which is what `run.js` is for: it loads the polyfill before running `app.compiled.js`).
+This is currenlty not published on NPM, so if you want to use the module in your Node apps, then please just clone the repo and copy `src/range.js` to your js files, or just download the `src/range.js` file straight from the Github page to your projects.

@@ -1,3 +1,0 @@
-- Separate app.js into the API and the use of the API
-- Add conditional loading of polyfill with System.import
-- Adjust Readme
